@@ -16,7 +16,7 @@ body {
     min-height: 100%;
 }
 
-.content {
+.homescreen-heading-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
