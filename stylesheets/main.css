@@ -1,9 +1,9 @@
-@import url(imports/utils/variables);
-@import url(imports/utils/functions);
-@import url(imports/utils/mixins);
-@import url(imports/base/reset);
-@import url(imports/base/typography);
-@import url(imports/components/buttons);
+@import url(imports/base/_reset.scss);
+@import url(imports/base/_typography.scss);
+@import url(imports/components/_buttons.scss);
 @import url(imports/pages/home);
+@import url(imports/utils/_functions.scss);
+@import url(imports/utils/_mixins.scss);
+@import url(imports/utils/_variables.scss);
 
 /*# sourceMappingURL=main.css.map */
