@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.startmenu {
+    min-height: 100%;
+    min-width: 100%;
+    margin: 0;
+    padding: 0;
+    background: url('./assets/images/svg/') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.startmenu__video-background {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.startmenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2);
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    z-index: 99;
+}
+
+.startmenu__menu img {
+    margin-bottom: 50px;
+}
+
+
+.startmenu__menu .menu {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.startmenu__menu .menu .menu__item {
+    list-style: none;
+    
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    height: 80px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.startmenu__menu .menu .menu__item a {
+    text-align: center;
+    font-family: 'Laila', sans-serif;
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+}
+
+.startmenu__menu .menu__item:hover::before {
+    content: ' ';
+    flex: none;
+    width: 50px;
+    margin-top: -15px;
+    margin-left: -50px;
+}
+
+.startmenu__menu .menu .menu__item:after {
+    content: ' ';
+    flex: none;
+    width: 50px;
+    margin-top: -15px;
+    margin-right: -50px;
+
+}
+
+
+.startmenu__menu .menu .menu__item:hover {
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+    text-align: center;
+}
+
+.startmenu__menu .menu .menu__item:hover::before {
+    content: url(./assets/images/svg/ornement_bouton.svg);
+    flex: none;
+    width: 50px;
+    margin-top: -15px;
+    margin-left: -50px;
+}
+
+.startmenu__menu .menu .menu__item:hover::after {
+    content: url(./assets/images/svg/ornement_bouton.svg);
+    flex: none;
+    width: 50px;
+    margin-top: -15px;
+    margin-right: -50px;
+
+}
